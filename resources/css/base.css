@@ -1,6 +1,8 @@
 :root {
+    --background-color: #2D162C;
     --border-color: #000000;
     --nav-background: #412752;
+    --nav-button: #2D162C;
 
     font-size: 16px;
 }
@@ -13,5 +15,9 @@ html, body {
 
 html {
     font-family: "JetBrainsMono-Thin", monospace;
+}
+
+body {
+    background-color: var(--background-color);
 }
 

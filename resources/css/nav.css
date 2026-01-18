@@ -1,5 +1,13 @@
 nav {
+    position: relative;
     max-width: 250px;
+    left: -6px;
+}
+
+.nav-open {
+    background-color: #FFF;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -17,3 +25,43 @@ nav {
 
 /* Navbar */
 
+.navbar {
+    margin-top: 10px;
+    background-color: var(--nav-background);
+    border: 6px solid var(--border-color);
+}
+
+.navbar__button {
+    display: block;
+    border-radius: 0;
+    border: none;
+    background-color: var(--nav-button);
+    color: white;
+    font-family: "JetBrainsMono-Regular", monospace;
+    text-align: right;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 75%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.navbar__button:hover {
+    width: 95%;
+    transition: width 0.2s ease-in-out;
+}
+
+
+.kon-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    bottom: -7px
+}
+
+.kon-characters {
+    left: 75px;
+    position: inherit;
+    width: 200px;
+}
