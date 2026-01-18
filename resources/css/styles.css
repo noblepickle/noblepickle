@@ -1,5 +1,8 @@
-:root {
-    font-size: 16px;
-}
-
-
+@import url(jet-brains-mono.css);
+@import url(base.css);
+@import url(main.css);
+@import url(nav.css);
+@import url(home.css);
+@import url(games.css);
+@import url(film.css);
+@import url(stuff.css);

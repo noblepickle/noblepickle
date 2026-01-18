@@ -1,0 +1,19 @@
+nav {
+    max-width: 250px;
+}
+
+
+/* top box */
+.top-box {
+    background-color: var(--nav-background);
+    border: 6px solid var(--border-color);
+}
+
+.darkangel-idle {
+    position: relative;
+    left: -55px;
+    top: 5px;
+}
+
+/* Navbar */
+
