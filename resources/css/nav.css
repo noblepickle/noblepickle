@@ -2,7 +2,7 @@ nav {
     position: absolute;
     max-width: 250px;
     left: -220px;
-    
+    z-index: 500;
     transition: left 0.4s ease-in-out;
 }
 

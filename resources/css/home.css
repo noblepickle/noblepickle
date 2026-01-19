@@ -1,0 +1,9 @@
+
+/* Character Container */
+.character-container {
+    margin:-7px
+}
+
+.character-container hr {
+    border: 1px solid var(--border-color);
+}
