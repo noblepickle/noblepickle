@@ -1,3 +1,3 @@
 Hi!
 
-[Currently Working on](https://github.com/noblepickle/bookstore-site)
+[Currently working on](https://github.com/noblepickle/bookstore-site)
