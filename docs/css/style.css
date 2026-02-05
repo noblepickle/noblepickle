@@ -20,4 +20,28 @@ body {
     background: var(--background);
     color: var(--primary-color);
     font-family: 'Inter', sans-serif;
+    height: 95vh;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+h1 {
+    font-size: 10rem;
+    cursor: default;
+}
+ */
+
+.circle {
+    background: beige;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    position: relative;
 }
