@@ -21,10 +21,11 @@ body {
     color: var(--primary-color);
     font-family: 'Inter', sans-serif;
     height: 95vh;
+    scroll-behavior: smooth;
 }
 
 .container {
-    height: 100%;
+    min-height: 310vh;
     width: 95%;
     margin: 0 auto;
     display: flex;
@@ -40,6 +41,7 @@ h1 {
 }
  */
 
+/*
 .circle {
     background: beige;
     border-radius: 50%;
@@ -47,12 +49,12 @@ h1 {
     height: 6rem;
     margin: 2.5rem 0 0 0;
     position: relative;
-}
+}*/
 
-.square {
+.box {
     border-radius: 25px;
     width: 6rem;
     height: 6rem;
     background-color: beige;
-    margin: 2.5rem 0 0 0;
+    margin: 12rem 0 0 0;
 }
